@@ -25,13 +25,20 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="uppercase text-sm tracking-[0.3em] mb-4 opacity-80">Индивидуальный проект</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ТЕХНОЛОГИИ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-90 mb-8">
+          Тест из 20 вопросов. Проверь свои знания и получи зачёт.
         </p>
+        <a
+          href="#quiz"
+          className="inline-block bg-white text-black px-8 py-3 text-sm uppercase tracking-wide border border-white transition-all duration-300 hover:bg-transparent hover:text-white"
+        >
+          Начать тест
+        </a>
       </div>
     </div>
   );
